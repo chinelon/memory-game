@@ -1,0 +1,50 @@
+#root {
+  text-align: center;
+  background-color: rgb(255, 212, 219);
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /* Adjust the number of columns as needed */
+  gap: 20px;
+  /* Adjust the gap between grid items */
+  margin: 0px 150px 150px;
+}
+
+.grid-item {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-item img {
+  max-width: 100%;
+  /* Set maximum width to 100% */
+  max-height: 100%;
+  /* Set maximum height to 100% */
+}
+
+.header {
+  margin-top: 50px;
+  text-align: start;
+  font-weight: 600;
+}
+.heade{
+  text-align: start;
+
+}
+h1 {
+  color: rgb(255, 88, 116);
+}
+
+.headers {
+  display: flex;
+  gap: 300px;
+  margin-left: 150px;
+}
+
+alert{
+  background-color: pink;
+}
